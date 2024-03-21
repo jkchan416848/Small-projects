@@ -1,0 +1,49 @@
+#card-contain{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 50px;
+    position:absolute;
+    background-color: cadetblue;
+}
+#card-contain > .card-contain1{
+    border: 1px solid rgb(255, 0, 0);
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+.img_1{
+    width: 70%;
+    align-self: center;
+    border: 1px solid white;
+    margin-left: 60px;
+}
+h1{
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(0, 0, 0, 0.623);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button{
+    width: 350px;
+    margin-left: 10px;
+    line-height: 25px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    height: 40px;
+    margin-bottom: 5px;
+    
+}

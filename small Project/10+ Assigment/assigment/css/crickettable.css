@@ -1,0 +1,42 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 30px;
+    
+}
+table{
+    border: 10px ridge cornflowerblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/ICC-Cricket-World-Cup.jpg");
+    
+}
+#head_content:hover{
+    background-color: chartreuse;
+    font-size: 25px;
+    
+}
+#rr_team:hover{
+    background-color: coral;
+    font-size: 25px;
+}
+#kk_team:hover{
+    background-color: cornflowerblue;
+    font-size: 25px;
+}
+#gt_team:hover{
+    background-color: crimson;
+    font-size: 25px;
+}
+#dc_team:hover{
+    background-color: darkblue;
+    font-size: 25px;
+}
+#lsg_team:hover{
+    background-color: darkgoldenrod;
+    font-size: 25px;
+}
+#rcb_team:hover{
+    background-color: darkmagenta;
+    font-size: 25px;
+}

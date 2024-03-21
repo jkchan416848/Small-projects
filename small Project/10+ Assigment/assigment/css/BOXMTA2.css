@@ -1,0 +1,13 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: darkcyan;
+}
+td{
+    word-spacing: 15px;
+}
+#xyz1{
+    word-spacing: 2px;
+}

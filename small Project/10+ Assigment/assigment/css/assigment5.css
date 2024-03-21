@@ -1,0 +1,69 @@
+footer{
+    border: 1px solid slateblue;
+    line-height: 60px;
+    font-size: large;
+    text-align: center;
+    width: 450px;
+    background-color: slateblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin-top: 170px;
+    border-radius: 10px;
+    animation-name: foot;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+#img_ball{
+    
+    left: 400px;
+    animation-name: bball;
+    animation-duration: 2s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse; 
+    
+    }
+@keyframes bball {
+   0%{
+    top: 0px;
+    left:50px;
+
+    transform: rotate(-400deg);
+    
+   }
+   50%{
+    left: 400px;
+    top:230px;
+    transform: rotate(100deg);
+   }
+   100%{
+    top: 0px;
+    right: 200px;
+    
+    left: 800px;
+    transform: rotate(400deg);
+   }
+    
+}
+@keyframes foot {
+    
+    0%{
+        left: 0px;
+    }
+    25%{
+        left: 400px;
+    }
+    50%{
+        left: 800px;
+    }
+    75%{
+        left: 400px;
+    }
+    100%{
+        left: 0px;
+    }
+}

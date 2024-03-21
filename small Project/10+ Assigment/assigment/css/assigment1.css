@@ -1,0 +1,83 @@
+#heading{
+     border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    background-color: burlywood;
+    position: sticky;
+
+   
+}
+nav{
+     border: 1px solid black;
+    text-align: center;
+    word-spacing: 200px;
+    padding: 20px;
+    width: 1290px;
+    background-color: coral;
+    position: fixed;
+    top: 0px;
+   
+    }
+#div_1{
+    position: relative;
+    margin-top: 51px;
+
+    
+    
+
+}
+/* #div_1{
+    border: 1px solid black;
+    text-align: center;
+    
+}
+#heading{
+    border: 1px solid black;
+    padding: 20px;
+
+} */
+
+#div_0{
+    border: 1px solid black;
+    position: relative;
+
+
+
+}
+#div_2{
+    border: 1px solid black;
+    height: 90vh;
+    position: static;
+    background-color: blueviolet;
+    background-image: url(../img/car.jpeg);
+    
+}
+#div_3{
+    border: 1px solid black;
+    height: 100vh;
+}
+#div_4{
+    border: 1px solid black;
+    height: 100vh;
+}
+#div_5{
+    border: 1px solid black;
+    height: 100vh;
+}
+#div_6{
+    border: 1px solid black;
+    height: 100vh;
+}
+footer{
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightseagreen;
+    position: fixed;
+    bottom: 0px;
+    width: 1330px;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+}

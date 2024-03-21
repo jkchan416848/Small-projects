@@ -1,0 +1,36 @@
+.th2{
+    border: 1.5px dotted chocolate;
+    padding: 5px 50px;
+}
+.td1{
+    border: 2px double greenyellow;
+    border-top: 1px dotted chocolate;
+}
+table{
+    border-collapse: collapse;
+    margin: 30px 40px 80px 40px;
+    
+    
+    
+}
+.td2{
+    border: 1px solid black;
+    border-bottom: 2px double darkblue;
+
+}
+.td3{
+    border: 1px solid black;
+    border-top: 1px solid darkblue;
+}
+#age_1{
+    border-right: 1px solid black;
+}
+#name1{
+    border-right: 1px solid black;
+}
+#name2{
+    border-right: 1px solid black;
+}
+thead{
+    background-color: burlywood;
+}

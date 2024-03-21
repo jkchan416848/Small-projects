@@ -1,0 +1,120 @@
+nav{
+    border: 1px solid black;
+    line-height: 50px;
+    text-align: center;
+    word-spacing: 230px;
+    background-color: aqua;
+}
+.para_1{
+    border: 1px solid black;
+    width: 256px;
+    display: inline-block;
+    margin:140px ;
+    transform: skew(15deg);
+    margin-left: 200px;
+    padding: 10px;
+    fo
+}
+#div_1{
+    height: 100vh;
+}
+#para_2{
+    border: 1px solid black;
+    width: 280px;
+    margin-left: 500px;
+    transform: skewX(15deg);
+    padding: 10px;
+    }
+#section_1{
+    border: 1px solid burlywood;
+    width: 400px;
+    transition: 1s;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    
+    
+}
+img{
+ width: 100%;
+ 
+ 
+}
+#div_2{
+    height: 100vh;
+    background-color: coral;
+
+}
+#section_2{
+    border: 1px solid burlywood;
+    width: 400px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+    transition: 1s;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+button{
+    background-color:rgb(9, 140, 150);
+    border: 1px solid skyblue;
+    padding: 10px;
+    width:200px;
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#section_1:hover{
+    box-shadow: 10px 10px 10px 10px;
+    transform: scale(1.1,1.1)
+    
+}
+#section_2:hover{
+    box-shadow: 10px 10px 10px 10px;
+    transform: scale(1.1,1.1)
+}
+p{
+    padding: 10px;
+}
+h1{
+    font-size: 30px;
+    text-align: left;
+}
+
+
+
+#div_3{
+    height: 100vh;
+    border: 1px solid black;
+}
+.img_source{
+    width: 25%;
+    opacity: 30%;
+    transition: 1s;
+}
+#img_1:hover{
+    opacity: 100%;
+    transform: scale(1.4,1.4);
+}
+#img_2:hover{
+    opacity: 100%;
+    transform: scale(1.4,1.4);
+}
+#img_3:hover{
+    opacity: 100%;
+    transform: scale(1.4,1.4);
+}
+#img_4:hover{
+    opacity: 100%;
+    transform: scale(1.4,1.4);
+}
+h1{
+    text-align: center;
+}

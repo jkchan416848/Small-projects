@@ -1,0 +1,37 @@
+#login_page1 {
+  border: 1px solid coral;
+  display: inline-block;
+  padding: 30px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 400px;
+  width: 500px;
+  border-radius: 50px;
+  background-color: burlywood;
+}
+button {
+  position: relative;
+  right: 85px;
+  background-color: burlywood;
+  border-radius: 5px;
+  padding: 5px;
+  width: 80px;
+}
+body {
+  background-image: linear-gradient(to right, red, rgb(0, 204, 255));
+}
+.form_input {
+  background-color: burlywood;
+  border-radius: 4px;
+  align-self: self-start;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: darkmagenta;
+}
+
+a:active {
+  color: orangered;
+}

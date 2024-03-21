@@ -1,0 +1,39 @@
+#h11 {
+  font-size: 40px;
+  color: brown;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+input {
+  height: 30px;
+  width: 200px;
+  border: 2px solid brown;
+  margin-left: 500px;
+}
+.cancle {
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
+  background-color: green;
+}
+#add {
+  width: 80px;
+  background-color: aquamarine;
+  height: 30px;
+}
+#clear {
+  background-color: red;
+  width: 80px;
+  height: 30px;
+}
+input:focus {
+  font-size: large;
+}
+#ullist {
+  list-style: disc;
+  color: rgb(7, 7, 7);
+  margin-left: 550px;
+  font-size: x-large;
+  background-color: burlywood;
+  width: fit-content;
+}

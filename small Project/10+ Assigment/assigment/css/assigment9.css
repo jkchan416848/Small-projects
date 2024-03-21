@@ -1,0 +1,55 @@
+div{
+    height: 100vh;
+}
+#content{
+    border: 1px solid black;
+    height: 200px;
+    width: 250px;
+    margin-left: 500px;
+    margin-top: 230px;
+    background-color: chartreuse;
+    position:relative;
+    display:none;
+    
+    /* animation-name: hovercontent;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;  */
+}
+
+
+
+    @keyframes hovercontent {
+    from{
+        top: 500px;
+        
+       
+    }
+    to{
+            
+        bottom: 860px;
+        top: 0px;    
+        
+        }
+
+    }
+    button:hover+#content
+    {
+        display:block;
+        animation-name: hovercontent;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+
+    
+    
+
+    
+    #img_1{
+        border: 1px solid white;
+        margin-top: 250px;
+        margin-left: 220px;
+    }
+    #img_2{
+        border: 1px solid white;
+        margin-left: 50px;
+    }

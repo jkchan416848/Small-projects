@@ -1,0 +1,103 @@
+#div_1{
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    width: 350px;
+    margin-left:230px;
+    margin-top: 90px;
+    display: inline-block;
+    flex-wrap: wrap;
+    
+}
+#div_2{
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    width: 350px;
+    margin-left: 200px;
+    margin-top: 40px;
+    display: inline-block;
+    flex-wrap: wrap;
+    
+}
+img{
+    width: 100%;
+    overflow: hidden;
+}
+#button1{
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: rgb(216,38,76);
+    border-color: rgb(216,38,76);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#button2{
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    font-size: large;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Arial, Helvetica, sans-serif;
+}
+#button3{
+    padding: 12px;
+    width: 150px;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: rgb(216,38,76);
+    border-color: rgb(216,38,76);
+    color: white;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#button4{
+    padding: 12px;
+    width: 150px;
+    font-size: large;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.425);
+    padding: 8px;
+}
+#blog::before{
+    content: "";
+    border: 1px solid rgba(0, 0, 0, 0.767);
+    text-align: center;
+    top: 30px;
+    left: 90px;
+    position: absolute;
+    width: 520px;
+
+}
+#blog::after{
+    content: "";
+    border: 1px solid rgba(0, 0, 0, 0.672);
+    text-align: center;
+    top: 30px;
+    right: 80px;
+    position: absolute;
+    width: 520px;
+
+}
+#blog{
+   color:red;
+    display: inline;
+    border-radius: 10px;
+}

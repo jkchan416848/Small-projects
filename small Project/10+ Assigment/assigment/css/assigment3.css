@@ -1,0 +1,50 @@
+#login_page2{
+    border: 1px solid  black;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 380px;
+    width: 580px;
+    border-radius: 30px;
+    background-color: rgba(222, 184, 135, 0.651);
+    backface-visibility: visible;
+    align-self: self-start;
+    box-shadow: 10px 10px black;
+    
+    
+    
+}
+button{
+    position:relative;
+    right: 110px;
+    background-color: burlywood;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+}
+.input_form2{
+    border: 1px solid black;
+    text-align: center;
+    /* width: fit-content; */
+    border-radius: 5px;
+
+}
+body{
+    background-image: url(../img/car.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    }
+a:link{
+    color: darkmagenta;
+}
+
+a:active{
+    color: orangered;
+}
+label{
+    display: inline-block;
+}
